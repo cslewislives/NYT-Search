@@ -51,7 +51,6 @@ $(document).ready(function () {
                 articleNumber++;
                 var article = $("<div>");
                 article.addClass("well well-lg row");
-                // article.html(result.response.docs[i].snippet + "<br>");
                 var title = $("<h3>");
                 title.addClass("title");
                 title.text(result.response.docs[i].snippet);
